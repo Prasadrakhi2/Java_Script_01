@@ -46,3 +46,11 @@ const myFunctions = function(){
     console.log("hello world")
 }
 console.table([typeof myFunctions])
+
+
+
+/* -------------------***********------------------- */
+/* #############   Memory allocation  ############## */
+// 1.Stack (premitive)  = it give the copy of the value
+// 2.heap  (non-premitive)  = it give the refrence of the value
+
