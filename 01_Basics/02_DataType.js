@@ -29,7 +29,7 @@ console.log(id == anotherId)   // Output = false  (Symbol take every values as a
 /* ***** Arrays  ***** */
 const arr = ["rakhi", "prasad"];
 console.log(arr);
-
+console.table([typeof arr])  // Output = object
 
 
 /* ***** Object ****** */
@@ -38,10 +38,11 @@ let object={
     class : 12,
 }
 console.log(object)
+console.table([typeof object])
 
 
 /* ****** Functions ***** */
 const myFunctions = function(){
     console.log("hello world")
 }
-console.log(myFunctions)
+console.table([typeof myFunctions])
