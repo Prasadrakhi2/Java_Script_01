@@ -8,7 +8,7 @@ console.log(typeof name)
 let age = 18
 console.log(typeof age)
 
-// console.table([name,age])
+console.table([name,age])
 
 // typeOf  => use to find the type of any variables
 
