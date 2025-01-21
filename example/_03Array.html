@@ -1,0 +1,57 @@
+<!-- get the value from user in array -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user value </title>
+</head>
+<body>
+    
+    <h1>user defined values</h1>
+
+    <script>
+        var a = new Array(4);
+
+        //take value from the user
+        for(let i=0; i<a.length; i++){
+            a[i] = prompt("enter your value:");
+        }
+
+        //for print in the browser window in order list
+        document.write("<ol>");
+        for(let i=0; i<10; i++){
+            document.write("<li>", a[i] , "</li>");
+        }
+        document.write("</ol>");
+
+
+
+        /*multidimention array*/
+        var list =[
+            ["name","age", "gender", "course"],
+            ["rakhi",17, "female", "B.tech"],
+            ["riya",19, "female", "B.com"],
+            ["vidhi",20, "male", "BBA"],
+            ["ambika",22, "male", "Bse"],
+        ]
+
+        document.write("<table border='2px'>");
+        for(let i=0; i<list.length; i++){
+            
+            document.write("<tr>");
+            
+            for(let j=0; j<list.length; j++){
+                document.write("<td>");
+                document.write(list[i][j]);
+                document.write("</td>");
+            }
+            
+            document.write("</tr>");
+        }
+        document.write("</table>");
+
+    </script>
+</body>
+</html>

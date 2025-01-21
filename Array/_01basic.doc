@@ -1,0 +1,7 @@
+1. push("value") =  add in last
+2. pop()  = remove last element
+3. shift() = remove 1'st element
+4. unshift("value") = add element in the bignning
+
+5. concat() = join 2 arrays
+6. join("value") = remove "," from the printed part and also use to add other sign
